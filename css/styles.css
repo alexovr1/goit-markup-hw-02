@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   background-color: var(--main-backgroud-color);
   color: var(--main-text-color);
 }
@@ -33,7 +33,7 @@ body {
 } */
 
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, Arial, sans-serif;
   color: var(--accent-text-color);
   font-weight: 700;
   font-size: 26px;
@@ -69,6 +69,8 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus,
 .header-cl-link:hover,
 .header-cl-link:focus {
   color: var(--accent-text-color);
