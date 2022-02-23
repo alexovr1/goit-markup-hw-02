@@ -14,7 +14,7 @@ body {
   color: var(--main-text-color);
 }
 
-[class*='link'] {
+.link {
   text-decoration: none;
 }
 
@@ -42,12 +42,15 @@ body {
 }
 
 .header-logo-text {
-  font-family: Ralaway, sans-serif;
   color: #000000;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+}
+
+.header-nav-list,
+.header-cl {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-nav-link {
@@ -133,6 +136,10 @@ body {
 
 /* Особенности */
 
+.features {
+  background-color: var(--main-backgroud-color);
+}
+
 .features-title {
   display: none;
 }
@@ -150,5 +157,45 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.what-doing {
+  background-color: var(--main-backgroud-color);
+}
+
+.what-doing-title,
+.our-team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* Наша команда */
+
+.our-team {
+  background-color: var(--third-backgroud-color);
+}
+
+.our-team-item {
+  background-color: var(--third-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-item-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main-text-color);
+}
+
+.our-team-item-subtitle {
   color: var(--second-text-color);
 }
