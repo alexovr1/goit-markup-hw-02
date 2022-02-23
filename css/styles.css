@@ -28,12 +28,12 @@ body {
 
 /* Шапка  */
 
-.header {
+/* .header {
   background-color: var(--main-backgroud-color);
-}
+} */
 
 .logo {
-  font-family: Ralaway, sans-serif;
+  font-family: Raleway, sans-serif;
   color: var(--accent-text-color);
   font-weight: 700;
   font-size: 26px;
@@ -107,6 +107,12 @@ body {
   color: var(--accent-text-color);
 }
 
+/* Контент index.ntml */
+
+/* .main-index {
+  background-color: var(--main-backgroud-color);
+} */
+
 /* Герой */
 
 .hero {
@@ -126,6 +132,7 @@ body {
 .hero-btn {
   color: var(--main-text-color);
   background-color: var(--third-backgroud-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -136,9 +143,9 @@ body {
 
 /* Особенности */
 
-.features {
+/* .features {
   background-color: var(--main-backgroud-color);
-}
+} */
 
 .features-title {
   display: none;
@@ -162,9 +169,9 @@ body {
 
 /* Чем мы занимаемся */
 
-.what-doing {
+/* .what-doing {
   background-color: var(--main-backgroud-color);
-}
+} */
 
 .what-doing-title,
 .our-team-title {
@@ -197,5 +204,38 @@ body {
 }
 
 .our-team-item-subtitle {
+  color: var(--second-text-color);
+}
+
+/* Примеры работ */
+
+.examples-title {
+  display: none;
+}
+
+.examples-btn-item {
+  background-color: var(--third-backgroud-color);
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+
+.examples-btn-item:hover,
+.examples-btn-item:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.examples-item-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.examples-item-subtitle {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
