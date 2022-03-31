@@ -26,6 +26,19 @@ body {
   color: var(--accent-text-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* Шапка  */
 
 /* .header {
@@ -148,10 +161,6 @@ body {
 /* .features {
   background-color: var(--main-backgroud-color);
 } */
-
-.features-title {
-  display: none;
-}
 
 .features-item-title {
   font-weight: bold;
